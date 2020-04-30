@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">COVID2</string>
+    <string name="submit">Submit</string>
+    <string name="disease_label">Do you have a permanent disease?</string>
+    <string name="national_id">National ID</string>
+    <string name="login">login</string>
+    <string name="password">Password</string>
+    <string name="remember_me">Remember me</string>
+    <string name="do_you_have_any_permanent_disease">Do you have any permanent disease?</string>
+</resources>

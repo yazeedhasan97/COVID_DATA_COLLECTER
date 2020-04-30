@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">COVIDH2</string>
+    <string name="password">Password</string>
+    <string name="user_name">User Name</string>
+    <string name="login">Login</string>
+    <string name="remember_me">Remember me</string>
+    <string name="please_focus_on_qr_code">Please focus on QR code</string>
+    <string name="name">Name</string>
+    <string name="state">State</string>
+    <string name="personname">PersonName</string>
+    <string name="personstate">PersonState</string>
+    <string name="back">back</string>
+    <string name="national_id">National ID</string>
+</resources>

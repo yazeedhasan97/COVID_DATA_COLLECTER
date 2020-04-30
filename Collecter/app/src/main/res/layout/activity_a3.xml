@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    tools:context=".activities.A3">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#E3E2D5">
+
+
+<!--        <CheckBox-->
+<!--            android:id="@+id/cbDiabetic"-->
+<!--            android:layout_width="0dp"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginStart="20dp"-->
+<!--            android:layout_marginTop="12dp"-->
+<!--            android:text="Diabetic"-->
+<!--            app:layout_constraintStart_toStartOf="parent"-->
+<!--            app:layout_constraintTop_toBottomOf="@+id/txtDisease" />-->
+
+<!--        <CheckBox-->
+<!--            android:id="@+id/cbAllergicRhinitis"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="0dp"-->
+<!--            android:layout_marginStart="8dp"-->
+<!--            android:layout_marginTop="4dp"-->
+<!--            android:layout_marginEnd="50dp"-->
+<!--            android:text="Allergic rhinitis"-->
+<!--            app:layout_constraintEnd_toEndOf="parent"-->
+<!--            app:layout_constraintHorizontal_bias="0.365"-->
+<!--            app:layout_constraintStart_toEndOf="@+id/cbAIDS"-->
+<!--            app:layout_constraintTop_toBottomOf="@+id/cbCancer" />-->
+
+<!--        <CheckBox-->
+<!--            android:id="@+id/cbHemophilia"-->
+<!--            android:layout_width="0dp"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginStart="8dp"-->
+<!--            android:layout_marginTop="4dp"-->
+<!--            android:text="Hemophilia"-->
+<!--            app:layout_constraintStart_toEndOf="@+id/cbTuberculosis"-->
+<!--            app:layout_constraintTop_toBottomOf="@+id/cbSwineFlu" />-->
+
+<!--        <CheckBox-->
+<!--            android:id="@+id/cbDisability"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="0dp"-->
+<!--            android:layout_marginStart="20dp"-->
+<!--            android:layout_marginTop="4dp"-->
+<!--            android:text="Form of disability"-->
+<!--            app:layout_constraintStart_toStartOf="parent"-->
+<!--            app:layout_constraintTop_toBottomOf="@+id/cbDiabetic" />-->
+
+<!--        <CheckBox-->
+<!--            android:id="@+id/cbAIDS"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="0dp"-->
+<!--            android:layout_marginStart="8dp"-->
+<!--            android:layout_marginTop="4dp"-->
+<!--            android:text="AIDS"-->
+<!--            app:layout_constraintStart_toEndOf="@+id/cbDisability"-->
+<!--            app:layout_constraintTop_toBottomOf="@+id/cbBloodPressure" />-->
+
+<!--        <CheckBox-->
+<!--            android:id="@+id/cbSwineFlu"-->
+<!--            android:layout_width="0dp"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginStart="8dp"-->
+<!--            android:layout_marginTop="4dp"-->
+<!--            android:text="Swine flu"-->
+<!--            app:layout_constraintStart_toEndOf="@+id/cbBirdFlu"-->
+<!--            app:layout_constraintTop_toBottomOf="@+id/cbAIDS" />-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/txtDisease"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="0dp"-->
+<!--            android:layout_marginStart="16dp"-->
+<!--            android:layout_marginTop="250dp"-->
+<!--            android:text="@string/disease_label"-->
+<!--            android:textSize="18sp"-->
+<!--            android:textStyle="bold"-->
+<!--            app:layout_constraintEnd_toEndOf="parent"-->
+<!--            app:layout_constraintHorizontal_bias="0.0"-->
+<!--            app:layout_constraintStart_toStartOf="parent"-->
+<!--            app:layout_constraintTop_toBottomOf="@+id/textView5" />-->
+
+<!--        <CheckBox-->
+<!--            android:id="@+id/cbFever"-->
+<!--            android:layout_width="0dp"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginStart="8dp"-->
+<!--            android:layout_marginTop="4dp"-->
+<!--            android:layout_marginEnd="50dp"-->
+<!--            android:text="Fever (meningitis)"-->
+<!--            app:layout_constraintEnd_toEndOf="parent"-->
+<!--            app:layout_constraintStart_toEndOf="@+id/cbSwineFlu"-->
+<!--            app:layout_constraintTop_toBottomOf="@+id/cbAllergicRhinitis" />-->
+
+        <!--        <CheckBox-->
+<!--            android:id="@+id/cbAsthma"-->
+<!--            android:layout_width="0dp"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginStart="8dp"-->
+<!--            android:layout_marginTop="4dp"-->
+<!--            android:layout_marginEnd="50dp"-->
+<!--            android:text="Asthma"-->
+<!--            app:layout_constraintEnd_toEndOf="parent"-->
+<!--            app:layout_constraintStart_toEndOf="@+id/cbHemophilia"-->
+<!--            app:layout_constraintTop_toBottomOf="@+id/cbFever" />-->
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="125dp"
+            android:layout_marginTop="75dp"
+            android:layout_marginEnd="125dp"
+            android:gravity="center"
+            android:text="Your Code"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/lblUserState" />
+
+        <TextView
+            android:id="@+id/lblUserState"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="56dp"
+            android:layout_marginEnd="25dp"
+            android:text="Under Investigation"
+            android:textSize="16sp"
+            android:textStyle="italic"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/textView5"
+            app:layout_constraintTop_toTopOf="parent" />
+
+<!--        <Button-->
+<!--            android:id="@+id/btn_submit"-->
+<!--            android:layout_width="0dp"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginStart="125dp"-->
+<!--            android:layout_marginTop="50dp"-->
+<!--            android:layout_marginEnd="125dp"-->
+<!--            android:layout_marginBottom="100dp"-->
+<!--            android:background="@color/buttons"-->
+<!--            android:text="@string/submit"-->
+<!--            app:layout_constraintBottom_toBottomOf="parent"-->
+<!--            app:layout_constraintEnd_toEndOf="parent"-->
+<!--            app:layout_constraintHorizontal_bias="1.0"-->
+<!--            app:layout_constraintStart_toStartOf="parent"-->
+<!--            app:layout_constraintTop_toBottomOf="@+id/editText" />-->
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="60dp"
+            android:layout_marginTop="54dp"
+            android:text="State"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/imCode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginEnd="20dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView6"
+            app:srcCompat="@android:drawable/btn_star" />
+
+        <!--        <CheckBox-->
+<!--            android:id="@+id/cbBloodPressure"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="0dp"-->
+<!--            android:layout_marginStart="8dp"-->
+<!--            android:layout_marginTop="12dp"-->
+<!--            android:text="Blood pressure "-->
+<!--            app:layout_constraintStart_toEndOf="@+id/cbDiabetic"-->
+<!--            app:layout_constraintTop_toBottomOf="@+id/txtDisease" />-->
+
+<!--        <CheckBox-->
+<!--            android:id="@+id/cbCancer"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="0dp"-->
+<!--            android:layout_marginStart="8dp"-->
+<!--            android:layout_marginTop="12dp"-->
+<!--            android:layout_marginEnd="50dp"-->
+<!--            android:text="Cancer"-->
+<!--            app:layout_constraintEnd_toEndOf="parent"-->
+<!--            app:layout_constraintHorizontal_bias="0.25"-->
+<!--            app:layout_constraintStart_toEndOf="@+id/cbBloodPressure"-->
+<!--            app:layout_constraintTop_toBottomOf="@+id/txtDisease" />-->
+
+<!--        <CheckBox-->
+<!--            android:id="@+id/cbBirdFlu"-->
+<!--            android:layout_width="0dp"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginStart="20dp"-->
+<!--            android:layout_marginTop="4dp"-->
+<!--            android:text="Bird flu"-->
+<!--            app:layout_constraintStart_toStartOf="parent"-->
+<!--            app:layout_constraintTop_toBottomOf="@+id/cbDisability" />-->
+
+<!--        <EditText-->
+<!--            android:id="@+id/editText"-->
+<!--            android:layout_width="0dp"-->
+<!--            android:layout_height="44dp"-->
+<!--            android:layout_marginStart="24dp"-->
+<!--            android:layout_marginTop="12dp"-->
+<!--            android:layout_marginEnd="24dp"-->
+<!--            android:background="@color/design_default_color_background"-->
+<!--            android:ems="10"-->
+<!--            android:hint="Other"-->
+<!--            android:inputType="textPersonName"-->
+<!--            app:layout_constraintEnd_toEndOf="parent"-->
+<!--            app:layout_constraintHorizontal_bias="1.0"-->
+<!--            app:layout_constraintStart_toStartOf="parent"-->
+<!--            app:layout_constraintTop_toBottomOf="@+id/cbTuberculosis" />-->
+
+<!--        <CheckBox-->
+<!--            android:id="@+id/cbTuberculosis"-->
+<!--            android:layout_width="0dp"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginStart="20dp"-->
+<!--            android:layout_marginTop="4dp"-->
+<!--            android:text="Tuberculosis"-->
+<!--            app:layout_constraintStart_toStartOf="parent"-->
+<!--            app:layout_constraintTop_toBottomOf="@+id/cbSwineFlu" />-->
+
+        <!--        android:onClick="nextPage"-->
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
